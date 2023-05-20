@@ -7,7 +7,6 @@
           :card="card"
       />
     </div>
-
     <MainButton
             @handle-button="handleBtnStarted"
             :title="'GET STARTED'"
@@ -79,9 +78,10 @@ function handleBtnStarted () {
 
 <style lang="scss">
 .feature-page {
+  margin: 108px 0;
   .title {
     width: 730px;
-    margin: 108px auto 0;
+    margin: 0 auto;
     font-size: 56px;
     color: #1B264F;
     font-weight: 700;
@@ -91,7 +91,6 @@ function handleBtnStarted () {
       color: #506BCA;
       display: contents;
     }
-
   }
   .cards-section {
     display: flex;
@@ -101,8 +100,5 @@ function handleBtnStarted () {
     flex-wrap: wrap;
     justify-content: center;
   }
-  .button-started {
-  }
 }
-
 </style>

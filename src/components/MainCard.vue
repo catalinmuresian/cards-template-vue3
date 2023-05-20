@@ -29,7 +29,5 @@ const props = defineProps({
   background-color: white;
   display: flex;
   justify-content: space-between;
-
 }
-
 </style>

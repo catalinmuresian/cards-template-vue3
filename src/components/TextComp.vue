@@ -8,7 +8,8 @@
         </li>
       </ul>
     </div>
-    <p class="description" v-html="description" />
+    <p class="description"
+       v-html="description" />
   </div>
 </template>
 
@@ -62,5 +63,4 @@
     margin: 12px 0;
   }
 }
-
 </style>

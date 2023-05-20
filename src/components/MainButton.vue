@@ -2,7 +2,8 @@
   <div class="main-button">
     <button
         :style="{'background-color': color}"
-        @click="handleButton()"><span>{{ title }}</span>
+        @click="handleButton()">
+      <span>{{ title }}</span>
     </button>
   </div>
 </template>
@@ -38,9 +39,6 @@ function handleButton () {
       letter-spacing: 0.2em;
       text-transform: uppercase;
     }
-
   }
-
 }
-
 </style>
